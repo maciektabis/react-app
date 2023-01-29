@@ -1,4 +1,5 @@
 import styles from './List.module.scss';
+import Column from '../Column/Column';
 
 const List = () => {
 	return (
@@ -12,15 +13,9 @@ const List = () => {
 				Interesting things i want to check oyt
 			</p>
 			<section className={styles.columns}>
-				<article>
-					<h4>Books</h4>
-				</article>
-				<article>
-					<h4>Movies</h4>
-				</article>
-				<article>
-					<h4>Games</h4>
-				</article>
+				<Column title='Books' icon='book' />
+				<Column title='Movies' icon='film' />
+				<Column title='Games' icon='gamepad' />
 			</section>
 		</div>
 	);
