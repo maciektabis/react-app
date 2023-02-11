@@ -1,3 +1,4 @@
+import React from 'react';
 import Container from '../Container/Container';
 import PageTitle from '../PageTitle/PageTitle';
 

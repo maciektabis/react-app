@@ -1,21 +1,22 @@
+@import '../../styles/settings.scss';
 .ColumnForm {
-    text-align: center;
-    padding: 10px;
-    span {
-      margin: 10px;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .ColumnForm {
-      text-align: center;
-      padding: 10px;
-      * {
-        margin: 0 auto;
-        display: block;
-      }
-      button {
-        margin-top: 20px;
-      }
-    }
-  }
+	text-align: center;
+	padding: 10px;
+	span {
+		margin: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.ColumnForm {
+		text-align: center;
+		padding: 10px;
+		* {
+			margin: 0 auto;
+			display: block;
+		}
+		button {
+			margin-top: 20px;
+		}
+	}
+}
